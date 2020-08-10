@@ -1,5 +1,5 @@
 //
-//  Cv2AlmaharatCell.swift
+//  AlmaloomatTblCell.swift
 //  AamalUITask
 //
 //  Created by Afaq Ahmad on 10/08/2020.
@@ -8,17 +8,20 @@
 
 import UIKit
 
-class Cv2AlmaharatCell: UITableViewCell {
-
+class AlmaloomatTblCell: UITableViewCell {
+    
+    @IBOutlet weak var titleLbl: UILabel!
+    @IBOutlet weak var valueLbl: UILabel!
+    
+    
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code
     }
-
+    
     override func setSelected(_ selected: Bool, animated: Bool) {
         super.setSelected(selected, animated: animated)
-
+        
         // Configure the view for the selected state
     }
-
 }

@@ -1,5 +1,5 @@
 //
-//  Cv2AshadaCell.swift
+//  Cv2AdoratCell.swift
 //  AamalUITask
 //
 //  Created by Afaq Ahmad on 10/08/2020.
@@ -8,18 +8,12 @@
 
 import UIKit
 
-class Cv2AshadaCell: UITableViewCell {
-
+class Cv1AdoratCell: UITableViewCell {
+    
     @IBOutlet weak var placeLbl: UILabel!
     @IBOutlet weak var nameLbl: UILabel!
     @IBOutlet weak var titleLbl: UILabel!
-    
-    @IBOutlet weak var secondPlaceLbl: UILabel!
-    @IBOutlet weak var secondNameLbl: UILabel!
-    @IBOutlet weak var secondTitleLbl: UILabel!
-    
-    
-    
+
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code

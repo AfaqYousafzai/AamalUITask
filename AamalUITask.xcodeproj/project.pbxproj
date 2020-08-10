@@ -16,12 +16,12 @@
 		A6475E4224E06B45002AE284 /* AlughatCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6475E4124E06B45002AE284 /* AlughatCell.swift */; };
 		A6475E4424E08DC5002AE284 /* FooterCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6475E4324E08DC5002AE284 /* FooterCell.swift */; };
 		A6475E4924E0C454002AE284 /* Cv2VC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6475E4824E0C454002AE284 /* Cv2VC.swift */; };
-		A6475E4B24E0C7CC002AE284 /* Cv2MAloomatCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6475E4A24E0C7CC002AE284 /* Cv2MAloomatCell.swift */; };
-		A6475E4D24E0C7E9002AE284 /* Cv2AshadaCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6475E4C24E0C7E9002AE284 /* Cv2AshadaCell.swift */; };
-		A6475E4F24E0C804002AE284 /* Cv2AdoratCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6475E4E24E0C804002AE284 /* Cv2AdoratCell.swift */; };
-		A6475E5124E0C83B002AE284 /* Cv2AlkheratCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6475E5024E0C83B002AE284 /* Cv2AlkheratCell.swift */; };
-		A6475E5324E0C851002AE284 /* Cv2AlmaharatCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6475E5224E0C851002AE284 /* Cv2AlmaharatCell.swift */; };
-		A6475E5524E0C874002AE284 /* Cv2AlughatCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6475E5424E0C874002AE284 /* Cv2AlughatCell.swift */; };
+		A6475E4B24E0C7CC002AE284 /* Cv1MAloomatCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6475E4A24E0C7CC002AE284 /* Cv1MAloomatCell.swift */; };
+		A6475E4D24E0C7E9002AE284 /* Cv1AshadaCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6475E4C24E0C7E9002AE284 /* Cv1AshadaCell.swift */; };
+		A6475E4F24E0C804002AE284 /* Cv1AdoratCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6475E4E24E0C804002AE284 /* Cv1AdoratCell.swift */; };
+		A6475E5124E0C83B002AE284 /* Cv1AlkheratCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6475E5024E0C83B002AE284 /* Cv1AlkheratCell.swift */; };
+		A6475E5324E0C851002AE284 /* Cv1AlmaharatCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6475E5224E0C851002AE284 /* Cv1AlmaharatCell.swift */; };
+		A6475E5524E0C874002AE284 /* Cv1AlughatCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6475E5424E0C874002AE284 /* Cv1AlughatCell.swift */; };
 		A6475E5924E0D54B002AE284 /* CvVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6475E5824E0D54B002AE284 /* CvVC.swift */; };
 		A6475E5D24E0D83B002AE284 /* Cv1VC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6475E5C24E0D83B002AE284 /* Cv1VC.swift */; };
 		A6E873DC24DF62CB00844A05 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6E873DB24DF62CB00844A05 /* AppDelegate.swift */; };
@@ -34,6 +34,10 @@
 		A6E873F624DF62CC00844A05 /* AamalUITaskTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6E873F524DF62CC00844A05 /* AamalUITaskTests.swift */; };
 		A6E8740124DF62CC00844A05 /* AamalUITaskUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6E8740024DF62CC00844A05 /* AamalUITaskUITests.swift */; };
 		A6E8743724DF6EB800844A05 /* HomeOptionsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6E8743624DF6EB800844A05 /* HomeOptionsCell.swift */; };
+		A6F8C44224E17B2E0015FA90 /* AlmaloomatTblCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6F8C44124E17B2E0015FA90 /* AlmaloomatTblCell.swift */; };
+		A6F8C44424E17C480015FA90 /* GenericCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6F8C44324E17C480015FA90 /* GenericCell.swift */; };
+		A6F8C44624E182350015FA90 /* LughatTblCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6F8C44524E182350015FA90 /* LughatTblCell.swift */; };
+		A6F8C44A24E185300015FA90 /* MaharatTblCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6F8C44924E185300015FA90 /* MaharatTblCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -63,12 +67,12 @@
 		A6475E4124E06B45002AE284 /* AlughatCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlughatCell.swift; sourceTree = "<group>"; };
 		A6475E4324E08DC5002AE284 /* FooterCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FooterCell.swift; sourceTree = "<group>"; };
 		A6475E4824E0C454002AE284 /* Cv2VC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cv2VC.swift; sourceTree = "<group>"; };
-		A6475E4A24E0C7CC002AE284 /* Cv2MAloomatCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cv2MAloomatCell.swift; sourceTree = "<group>"; };
-		A6475E4C24E0C7E9002AE284 /* Cv2AshadaCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cv2AshadaCell.swift; sourceTree = "<group>"; };
-		A6475E4E24E0C804002AE284 /* Cv2AdoratCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cv2AdoratCell.swift; sourceTree = "<group>"; };
-		A6475E5024E0C83B002AE284 /* Cv2AlkheratCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cv2AlkheratCell.swift; sourceTree = "<group>"; };
-		A6475E5224E0C851002AE284 /* Cv2AlmaharatCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cv2AlmaharatCell.swift; sourceTree = "<group>"; };
-		A6475E5424E0C874002AE284 /* Cv2AlughatCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cv2AlughatCell.swift; sourceTree = "<group>"; };
+		A6475E4A24E0C7CC002AE284 /* Cv1MAloomatCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cv1MAloomatCell.swift; sourceTree = "<group>"; };
+		A6475E4C24E0C7E9002AE284 /* Cv1AshadaCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cv1AshadaCell.swift; sourceTree = "<group>"; };
+		A6475E4E24E0C804002AE284 /* Cv1AdoratCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cv1AdoratCell.swift; sourceTree = "<group>"; };
+		A6475E5024E0C83B002AE284 /* Cv1AlkheratCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cv1AlkheratCell.swift; sourceTree = "<group>"; };
+		A6475E5224E0C851002AE284 /* Cv1AlmaharatCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cv1AlmaharatCell.swift; sourceTree = "<group>"; };
+		A6475E5424E0C874002AE284 /* Cv1AlughatCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cv1AlughatCell.swift; sourceTree = "<group>"; };
 		A6475E5824E0D54B002AE284 /* CvVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CvVC.swift; sourceTree = "<group>"; };
 		A6475E5C24E0D83B002AE284 /* Cv1VC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cv1VC.swift; sourceTree = "<group>"; };
 		A6E873D824DF62CB00844A05 /* AamalUITask.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AamalUITask.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -87,6 +91,10 @@
 		A6E8740024DF62CC00844A05 /* AamalUITaskUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AamalUITaskUITests.swift; sourceTree = "<group>"; };
 		A6E8740224DF62CC00844A05 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A6E8743624DF6EB800844A05 /* HomeOptionsCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeOptionsCell.swift; sourceTree = "<group>"; };
+		A6F8C44124E17B2E0015FA90 /* AlmaloomatTblCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlmaloomatTblCell.swift; sourceTree = "<group>"; };
+		A6F8C44324E17C480015FA90 /* GenericCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenericCell.swift; sourceTree = "<group>"; };
+		A6F8C44524E182350015FA90 /* LughatTblCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LughatTblCell.swift; sourceTree = "<group>"; };
+		A6F8C44924E185300015FA90 /* MaharatTblCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MaharatTblCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -171,7 +179,7 @@
 		A6475E4524E0C3DB002AE284 /* CV2 */ = {
 			isa = PBXGroup;
 			children = (
-				A6475E4724E0C40D002AE284 /* CV2 Cells */,
+				A6F8C43E24E17AF50015FA90 /* Cv2 TableView Cells */,
 				A6475E4624E0C3EE002AE284 /* CV2 Controllers */,
 			);
 			path = CV2;
@@ -185,17 +193,17 @@
 			path = "CV2 Controllers";
 			sourceTree = "<group>";
 		};
-		A6475E4724E0C40D002AE284 /* CV2 Cells */ = {
+		A6475E4724E0C40D002AE284 /* CV1 Cells */ = {
 			isa = PBXGroup;
 			children = (
-				A6475E4A24E0C7CC002AE284 /* Cv2MAloomatCell.swift */,
-				A6475E4C24E0C7E9002AE284 /* Cv2AshadaCell.swift */,
-				A6475E4E24E0C804002AE284 /* Cv2AdoratCell.swift */,
-				A6475E5024E0C83B002AE284 /* Cv2AlkheratCell.swift */,
-				A6475E5224E0C851002AE284 /* Cv2AlmaharatCell.swift */,
-				A6475E5424E0C874002AE284 /* Cv2AlughatCell.swift */,
+				A6475E4A24E0C7CC002AE284 /* Cv1MAloomatCell.swift */,
+				A6475E4C24E0C7E9002AE284 /* Cv1AshadaCell.swift */,
+				A6475E4E24E0C804002AE284 /* Cv1AdoratCell.swift */,
+				A6475E5024E0C83B002AE284 /* Cv1AlkheratCell.swift */,
+				A6475E5224E0C851002AE284 /* Cv1AlmaharatCell.swift */,
+				A6475E5424E0C874002AE284 /* Cv1AlughatCell.swift */,
 			);
-			path = "CV2 Cells";
+			path = "CV1 Cells";
 			sourceTree = "<group>";
 		};
 		A6475E5624E0D514002AE284 /* CV */ = {
@@ -217,6 +225,7 @@
 		A6475E5A24E0D80F002AE284 /* CV1 */ = {
 			isa = PBXGroup;
 			children = (
+				A6475E4724E0C40D002AE284 /* CV1 Cells */,
 				A6475E5B24E0D822002AE284 /* Cv1 Controllers */,
 			);
 			path = CV1;
@@ -313,6 +322,17 @@
 			name = "Home Cells";
 			path = "AamalUITask/Home/Home Cells";
 			sourceTree = SOURCE_ROOT;
+		};
+		A6F8C43E24E17AF50015FA90 /* Cv2 TableView Cells */ = {
+			isa = PBXGroup;
+			children = (
+				A6F8C44124E17B2E0015FA90 /* AlmaloomatTblCell.swift */,
+				A6F8C44324E17C480015FA90 /* GenericCell.swift */,
+				A6F8C44524E182350015FA90 /* LughatTblCell.swift */,
+				A6F8C44924E185300015FA90 /* MaharatTblCell.swift */,
+			);
+			path = "Cv2 TableView Cells";
+			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
@@ -445,26 +465,30 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A6475E5524E0C874002AE284 /* Cv2AlughatCell.swift in Sources */,
+				A6475E5524E0C874002AE284 /* Cv1AlughatCell.swift in Sources */,
 				A6475E3E24E03B0C002AE284 /* EditCvCell.swift in Sources */,
-				A6475E5124E0C83B002AE284 /* Cv2AlkheratCell.swift in Sources */,
+				A6F8C44424E17C480015FA90 /* GenericCell.swift in Sources */,
+				A6475E5124E0C83B002AE284 /* Cv1AlkheratCell.swift in Sources */,
 				A6475E3324DFFF20002AE284 /* NotifyCell.swift in Sources */,
 				A6475E4924E0C454002AE284 /* Cv2VC.swift in Sources */,
 				A6475E5D24E0D83B002AE284 /* Cv1VC.swift in Sources */,
 				A6475E4224E06B45002AE284 /* AlughatCell.swift in Sources */,
+				A6F8C44A24E185300015FA90 /* MaharatTblCell.swift in Sources */,
 				A6475E4024E06990002AE284 /* AlmaharatCell.swift in Sources */,
 				A6475E3A24E014BC002AE284 /* EditCvVC.swift in Sources */,
 				A6E873E024DF62CB00844A05 /* HomeVC.swift in Sources */,
 				A6475E4424E08DC5002AE284 /* FooterCell.swift in Sources */,
 				A6E8743724DF6EB800844A05 /* HomeOptionsCell.swift in Sources */,
 				A6475E3C24E03AED002AE284 /* HeaderCell.swift in Sources */,
-				A6475E4B24E0C7CC002AE284 /* Cv2MAloomatCell.swift in Sources */,
-				A6475E5324E0C851002AE284 /* Cv2AlmaharatCell.swift in Sources */,
-				A6475E4D24E0C7E9002AE284 /* Cv2AshadaCell.swift in Sources */,
+				A6475E4B24E0C7CC002AE284 /* Cv1MAloomatCell.swift in Sources */,
+				A6475E5324E0C851002AE284 /* Cv1AlmaharatCell.swift in Sources */,
+				A6F8C44624E182350015FA90 /* LughatTblCell.swift in Sources */,
+				A6475E4D24E0C7E9002AE284 /* Cv1AshadaCell.swift in Sources */,
 				A6E873E624DF62CB00844A05 /* AamalUITask.xcdatamodeld in Sources */,
 				A6E873DC24DF62CB00844A05 /* AppDelegate.swift in Sources */,
+				A6F8C44224E17B2E0015FA90 /* AlmaloomatTblCell.swift in Sources */,
 				A6E873DE24DF62CB00844A05 /* SceneDelegate.swift in Sources */,
-				A6475E4F24E0C804002AE284 /* Cv2AdoratCell.swift in Sources */,
+				A6475E4F24E0C804002AE284 /* Cv1AdoratCell.swift in Sources */,
 				A6475E5924E0D54B002AE284 /* CvVC.swift in Sources */,
 				A6475E3524DFFF66002AE284 /* NotificationVC.swift in Sources */,
 			);

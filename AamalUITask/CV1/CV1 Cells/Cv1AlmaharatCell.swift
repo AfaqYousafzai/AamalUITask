@@ -1,5 +1,5 @@
 //
-//  Cv2AlughatCell.swift
+//  Cv2AlmaharatCell.swift
 //  AamalUITask
 //
 //  Created by Afaq Ahmad on 10/08/2020.
@@ -8,12 +8,7 @@
 
 import UIKit
 
-class Cv2AlughatCell: UITableViewCell {
-    
-    @IBOutlet weak var frenchValue: UILabel!
-    @IBOutlet weak var arabicValue: UILabel!
-    @IBOutlet weak var englishValue: UILabel!
-    
+class Cv1AlmaharatCell: UITableViewCell {
 
     override func awakeFromNib() {
         super.awakeFromNib()

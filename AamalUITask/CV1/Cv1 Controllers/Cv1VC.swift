@@ -154,7 +154,7 @@ extension Cv1VC: UITableViewDelegate, UITableViewDataSource {
                 
             default:
                 
-                let cell = tableView.dequeueReusableCell(withIdentifier: "Cv2MAloomatCell", for: indexPath) as! Cv2MAloomatCell
+                let cell = tableView.dequeueReusableCell(withIdentifier: "Cv2MAloomatCell", for: indexPath) as! Cv1MAloomatCell
                 
                 return cell
             }
@@ -175,7 +175,7 @@ extension Cv1VC: UITableViewDelegate, UITableViewDataSource {
                 
             default:
                 
-                let cell = tableView.dequeueReusableCell(withIdentifier: "Cv2AshadaCell", for: indexPath) as! Cv2AshadaCell
+                let cell = tableView.dequeueReusableCell(withIdentifier: "Cv2AshadaCell", for: indexPath) as! Cv1AshadaCell
                 
                 cell.titleLbl.text = ashadaArray[0]
                 cell.nameLbl.text = ashadaArray[1]
@@ -197,13 +197,13 @@ extension Cv1VC: UITableViewDelegate, UITableViewDataSource {
                 
                 let cell = tableView.dequeueReusableCell(withIdentifier: "HeaderCell", for: indexPath) as! HeaderCell
                 
-                cell.titileLbl.text = sectionsTitles[indexPath.section + 1]
+                cell.titileLbl.text = sectionsTitles[indexPath.section]
                 
                 return cell
                 
             default:
                 
-                let cell = tableView.dequeueReusableCell(withIdentifier: "Cv2AdoratCell", for: indexPath) as! Cv2AdoratCell
+                let cell = tableView.dequeueReusableCell(withIdentifier: "Cv2AdoratCell", for: indexPath) as! Cv1AdoratCell
                 
                 return cell
             }
@@ -224,7 +224,7 @@ extension Cv1VC: UITableViewDelegate, UITableViewDataSource {
                 
             default:
                 
-                let cell = tableView.dequeueReusableCell(withIdentifier: "Cv2AlughatCell", for: indexPath) as! Cv2AlughatCell
+                let cell = tableView.dequeueReusableCell(withIdentifier: "Cv2AlughatCell", for: indexPath) as! Cv1AlughatCell
                 
                 return cell
             }

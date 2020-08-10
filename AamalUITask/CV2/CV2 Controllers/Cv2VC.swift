@@ -20,13 +20,26 @@ class Cv2VC: UIViewController {
     let sectionsTitles = ["المعلومات الشخصية", "الشهادات التعليمية", "الخبرات الوظيفية", "الدورات", "المهارات", "اللغات"]
     
     let maloomatArray = ["34 سنة", "السعودية", "الرياض", "إعزب"]
+    let maloomatTitleArray = ["العمر", "الجنسية", "المدينة", "الحالة الاإجتماعية"]
+    
+    let ashadaount = 2
+    
+    let adoratCount = 1
+    
+    let alkhabratCount = 4
     
     let ashadaArray = ["ثانوي", "جامعة الملك عبدالعزيز", "المملكة العربية السعودية - الرياض"]
+    let ashadaSecondArray = ["جامعي - تسويق", "جامعة الملك عبدالعزيز", "المملكة العربية السعودية - الرياض"]
     
     let adoraArray = ["برمجة php", "معهد معد للتقنيات", "المملكة العربية السعودية - الرياض"]
     
     let alughatArray = ["للغة الأم", "ممتازة", "مبتدئ"]
-
+    let alughatTitleArray = ["اللغة العربية", "اللغة الانجليزية", "الفرنسية"]
+    
+    let maharatArray = ["إدارة الفريق", "تحمل الضغط في العمل", "حل المشاكل بفعالية", "إدارة الوقت"]
+    
+    let alkhabratArray = ["مبيعات", "تسويق", "إدارة الموقع الإلكتروني", "إدارة الموقع الإلكتروني"]
+    
     
     
     override func viewDidLoad() {
@@ -90,7 +103,7 @@ extension Cv2VC: UITableViewDelegate, UITableViewDataSource {
             case 0:
                 return 30
             default:
-                return 141
+                return 31
             }
             
         }
@@ -101,7 +114,7 @@ extension Cv2VC: UITableViewDelegate, UITableViewDataSource {
             case 0:
                 return 30
             default:
-                return 170
+                return 90
             }
             
         }
@@ -120,16 +133,16 @@ extension Cv2VC: UITableViewDelegate, UITableViewDataSource {
             case 0:
                 return 30
             default:
-                return 340
+                return 90
             }
         }
-        
+            
         else if indexPath.section == 4 {
             switch indexPath.row {
             case 0:
-                return 60
+                return 30
             default:
-                return 141
+                return 31
             }
         }
             
@@ -137,9 +150,9 @@ extension Cv2VC: UITableViewDelegate, UITableViewDataSource {
         else {
             switch indexPath.row {
             case 0:
-                return 60
+                return 30
             default:
-                return 117
+                return 31
             }
         }
         
@@ -147,7 +160,34 @@ extension Cv2VC: UITableViewDelegate, UITableViewDataSource {
     }
     
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return 2
+        
+        if section == 0 {
+            return maloomatArray.count + 1
+        }
+            
+        else if section == 1 {
+            return ashadaount + 1
+        }
+            
+        else if section == 2 {
+            return adoratCount + 1
+            
+        }
+            
+        else if section == 3 {
+            return alkhabratCount + 1
+            
+        }
+            
+        else if section == 4 {
+            return maharatArray.count + 1
+        }
+            
+            
+        else {
+            return alughatArray.count + 1
+        }
+        
     }
     
     
@@ -167,12 +207,10 @@ extension Cv2VC: UITableViewDelegate, UITableViewDataSource {
                 
             default:
                 
-                let cell = tableView.dequeueReusableCell(withIdentifier: "Cv2MAloomatCell", for: indexPath) as! Cv2MAloomatCell
-                cell.alumerValue.text = maloomatArray[0]
-                cell.aljinsiaValue.text = maloomatArray[1]
-                cell.almadinaValue.text = maloomatArray[2]
-                cell.alarabValue.text = maloomatArray[3]
+                let cell = tableView.dequeueReusableCell(withIdentifier: "AlmaloomatTblCell", for: indexPath) as! AlmaloomatTblCell
                 
+                cell.titleLbl.text = maloomatTitleArray[indexPath.row - 1]
+                cell.valueLbl.text = maloomatArray[indexPath.row - 1]
                 
                 return cell
             }
@@ -193,14 +231,21 @@ extension Cv2VC: UITableViewDelegate, UITableViewDataSource {
                 
             default:
                 
-                let cell = tableView.dequeueReusableCell(withIdentifier: "Cv2AshadaCell", for: indexPath) as! Cv2AshadaCell
+                let cell = tableView.dequeueReusableCell(withIdentifier: "GenericCell", for: indexPath) as! GenericCell
                 
-                cell.titleLbl.text = ashadaArray[0]
-                cell.nameLbl.text = ashadaArray[1]
-                cell.placeLbl.text = ashadaArray[2]
-                cell.secondTitleLbl.text = "جامعي - تسويق"
-                cell.secondNameLbl.text = ashadaArray[1]
-                cell.secondPlaceLbl.text = ashadaArray[2]
+                
+                if indexPath.row == 1 {
+                    cell.titleLbl.text = ashadaArray[0]
+                    cell.nameLbl.text = ashadaArray[1]
+                    cell.placeLbl.text = ashadaArray[2]
+                }
+                else if indexPath.row == 2 {
+                    cell.titleLbl.text = ashadaSecondArray[0]
+                    cell.nameLbl.text = ashadaSecondArray[1]
+                    cell.placeLbl.text = ashadaSecondArray[2]
+                }
+                
+                
                 
                 return cell
             }
@@ -221,7 +266,8 @@ extension Cv2VC: UITableViewDelegate, UITableViewDataSource {
                 
             default:
                 
-                let cell = tableView.dequeueReusableCell(withIdentifier: "Cv2AdoratCell", for: indexPath) as! Cv2AdoratCell
+                let cell = tableView.dequeueReusableCell(withIdentifier: "GenericCell", for: indexPath) as! GenericCell
+                
                 
                 cell.titleLbl.text = adoraArray[0]
                 cell.nameLbl.text = adoraArray[1]
@@ -246,7 +292,11 @@ extension Cv2VC: UITableViewDelegate, UITableViewDataSource {
                 
             default:
                 
-                let cell = tableView.dequeueReusableCell(withIdentifier: "Cv2AlkheratCell", for: indexPath) as! Cv2AlkheratCell
+                let cell = tableView.dequeueReusableCell(withIdentifier: "GenericCell", for: indexPath) as! GenericCell
+                
+                cell.titleLbl.text = alkhabratArray[indexPath.row - 1]
+                cell.nameLbl.text = adoraArray[1]
+                cell.placeLbl.text = adoraArray[2]
                 
                 return cell
             }
@@ -266,13 +316,15 @@ extension Cv2VC: UITableViewDelegate, UITableViewDataSource {
                 
             default:
                 
-                let cell = tableView.dequeueReusableCell(withIdentifier: "Cv2AlmaharatCell", for: indexPath) as! Cv2AlmaharatCell
+                let cell = tableView.dequeueReusableCell(withIdentifier: "MaharatTblCell", for: indexPath) as! MaharatTblCell
+                
+                cell.titleLbl.text = maharatArray[indexPath.row - 1]
                 
                 return cell
             }
-                
+            
         }
-        
+            
         else {
             switch indexPath.row {
                 
@@ -286,11 +338,10 @@ extension Cv2VC: UITableViewDelegate, UITableViewDataSource {
                 
             default:
                 
-                let cell = tableView.dequeueReusableCell(withIdentifier: "Cv2AlughatCell", for: indexPath) as! Cv2AlughatCell
+                let cell = tableView.dequeueReusableCell(withIdentifier: "LughatTblCell", for: indexPath) as! LughatTblCell
                 
-                cell.arabicValue.text = alughatArray[0]
-                cell.englishValue.text = alughatArray[1]
-                cell.frenchValue.text = alughatArray[2]
+                cell.titleLbl.text = alughatTitleArray[indexPath.row - 1]
+                cell.valueLbl.text = alughatArray[indexPath.row - 1]
                 
                 return cell
             }

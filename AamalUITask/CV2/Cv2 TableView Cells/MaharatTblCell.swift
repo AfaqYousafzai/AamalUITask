@@ -1,5 +1,5 @@
 //
-//  Cv2AdoratCell.swift
+//  MaharatTblCell.swift
 //  AamalUITask
 //
 //  Created by Afaq Ahmad on 10/08/2020.
@@ -8,10 +8,8 @@
 
 import UIKit
 
-class Cv2AdoratCell: UITableViewCell {
+class MaharatTblCell: UITableViewCell {
     
-    @IBOutlet weak var placeLbl: UILabel!
-    @IBOutlet weak var nameLbl: UILabel!
     @IBOutlet weak var titleLbl: UILabel!
 
     override func awakeFromNib() {

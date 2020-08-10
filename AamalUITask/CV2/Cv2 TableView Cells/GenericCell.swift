@@ -1,5 +1,5 @@
 //
-//  Cv2MAloomatCell.swift
+//  GenericCell.swift
 //  AamalUITask
 //
 //  Created by Afaq Ahmad on 10/08/2020.
@@ -8,14 +8,12 @@
 
 import UIKit
 
-class Cv2MAloomatCell: UITableViewCell {
+class GenericCell: UITableViewCell {
     
-    
-    @IBOutlet weak var alumerValue: UILabel!
-    @IBOutlet weak var aljinsiaValue: UILabel!
-    @IBOutlet weak var almadinaValue: UILabel!
-    @IBOutlet weak var alarabValue: UILabel!
-    
+    @IBOutlet weak var placeLbl: UILabel!
+    @IBOutlet weak var nameLbl: UILabel!
+    @IBOutlet weak var titleLbl: UILabel!
+
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code
