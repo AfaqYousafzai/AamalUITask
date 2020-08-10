@@ -7,15 +7,33 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A6475E3324DFFF20002AE284 /* NotifyCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6475E3224DFFF20002AE284 /* NotifyCell.swift */; };
+		A6475E3524DFFF66002AE284 /* NotificationVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6475E3424DFFF66002AE284 /* NotificationVC.swift */; };
+		A6475E3A24E014BC002AE284 /* EditCvVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6475E3924E014BC002AE284 /* EditCvVC.swift */; };
+		A6475E3C24E03AED002AE284 /* HeaderCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6475E3B24E03AED002AE284 /* HeaderCell.swift */; };
+		A6475E3E24E03B0C002AE284 /* EditCvCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6475E3D24E03B0C002AE284 /* EditCvCell.swift */; };
+		A6475E4024E06990002AE284 /* AlmaharatCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6475E3F24E06990002AE284 /* AlmaharatCell.swift */; };
+		A6475E4224E06B45002AE284 /* AlughatCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6475E4124E06B45002AE284 /* AlughatCell.swift */; };
+		A6475E4424E08DC5002AE284 /* FooterCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6475E4324E08DC5002AE284 /* FooterCell.swift */; };
+		A6475E4924E0C454002AE284 /* Cv2VC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6475E4824E0C454002AE284 /* Cv2VC.swift */; };
+		A6475E4B24E0C7CC002AE284 /* Cv2MAloomatCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6475E4A24E0C7CC002AE284 /* Cv2MAloomatCell.swift */; };
+		A6475E4D24E0C7E9002AE284 /* Cv2AshadaCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6475E4C24E0C7E9002AE284 /* Cv2AshadaCell.swift */; };
+		A6475E4F24E0C804002AE284 /* Cv2AdoratCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6475E4E24E0C804002AE284 /* Cv2AdoratCell.swift */; };
+		A6475E5124E0C83B002AE284 /* Cv2AlkheratCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6475E5024E0C83B002AE284 /* Cv2AlkheratCell.swift */; };
+		A6475E5324E0C851002AE284 /* Cv2AlmaharatCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6475E5224E0C851002AE284 /* Cv2AlmaharatCell.swift */; };
+		A6475E5524E0C874002AE284 /* Cv2AlughatCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6475E5424E0C874002AE284 /* Cv2AlughatCell.swift */; };
+		A6475E5924E0D54B002AE284 /* CvVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6475E5824E0D54B002AE284 /* CvVC.swift */; };
+		A6475E5D24E0D83B002AE284 /* Cv1VC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6475E5C24E0D83B002AE284 /* Cv1VC.swift */; };
 		A6E873DC24DF62CB00844A05 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6E873DB24DF62CB00844A05 /* AppDelegate.swift */; };
 		A6E873DE24DF62CB00844A05 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6E873DD24DF62CB00844A05 /* SceneDelegate.swift */; };
-		A6E873E024DF62CB00844A05 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6E873DF24DF62CB00844A05 /* ViewController.swift */; };
+		A6E873E024DF62CB00844A05 /* HomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6E873DF24DF62CB00844A05 /* HomeVC.swift */; };
 		A6E873E324DF62CB00844A05 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A6E873E124DF62CB00844A05 /* Main.storyboard */; };
 		A6E873E624DF62CB00844A05 /* AamalUITask.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A6E873E424DF62CB00844A05 /* AamalUITask.xcdatamodeld */; };
 		A6E873E824DF62CC00844A05 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A6E873E724DF62CC00844A05 /* Assets.xcassets */; };
 		A6E873EB24DF62CC00844A05 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A6E873E924DF62CC00844A05 /* LaunchScreen.storyboard */; };
 		A6E873F624DF62CC00844A05 /* AamalUITaskTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6E873F524DF62CC00844A05 /* AamalUITaskTests.swift */; };
 		A6E8740124DF62CC00844A05 /* AamalUITaskUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6E8740024DF62CC00844A05 /* AamalUITaskUITests.swift */; };
+		A6E8743724DF6EB800844A05 /* HomeOptionsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6E8743624DF6EB800844A05 /* HomeOptionsCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,10 +54,27 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		A6475E3224DFFF20002AE284 /* NotifyCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotifyCell.swift; sourceTree = "<group>"; };
+		A6475E3424DFFF66002AE284 /* NotificationVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationVC.swift; sourceTree = "<group>"; };
+		A6475E3924E014BC002AE284 /* EditCvVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditCvVC.swift; sourceTree = "<group>"; };
+		A6475E3B24E03AED002AE284 /* HeaderCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderCell.swift; sourceTree = "<group>"; };
+		A6475E3D24E03B0C002AE284 /* EditCvCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditCvCell.swift; sourceTree = "<group>"; };
+		A6475E3F24E06990002AE284 /* AlmaharatCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlmaharatCell.swift; sourceTree = "<group>"; };
+		A6475E4124E06B45002AE284 /* AlughatCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlughatCell.swift; sourceTree = "<group>"; };
+		A6475E4324E08DC5002AE284 /* FooterCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FooterCell.swift; sourceTree = "<group>"; };
+		A6475E4824E0C454002AE284 /* Cv2VC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cv2VC.swift; sourceTree = "<group>"; };
+		A6475E4A24E0C7CC002AE284 /* Cv2MAloomatCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cv2MAloomatCell.swift; sourceTree = "<group>"; };
+		A6475E4C24E0C7E9002AE284 /* Cv2AshadaCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cv2AshadaCell.swift; sourceTree = "<group>"; };
+		A6475E4E24E0C804002AE284 /* Cv2AdoratCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cv2AdoratCell.swift; sourceTree = "<group>"; };
+		A6475E5024E0C83B002AE284 /* Cv2AlkheratCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cv2AlkheratCell.swift; sourceTree = "<group>"; };
+		A6475E5224E0C851002AE284 /* Cv2AlmaharatCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cv2AlmaharatCell.swift; sourceTree = "<group>"; };
+		A6475E5424E0C874002AE284 /* Cv2AlughatCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cv2AlughatCell.swift; sourceTree = "<group>"; };
+		A6475E5824E0D54B002AE284 /* CvVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CvVC.swift; sourceTree = "<group>"; };
+		A6475E5C24E0D83B002AE284 /* Cv1VC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cv1VC.swift; sourceTree = "<group>"; };
 		A6E873D824DF62CB00844A05 /* AamalUITask.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AamalUITask.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A6E873DB24DF62CB00844A05 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A6E873DD24DF62CB00844A05 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		A6E873DF24DF62CB00844A05 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A6E873DF24DF62CB00844A05 /* HomeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeVC.swift; sourceTree = "<group>"; };
 		A6E873E224DF62CB00844A05 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A6E873E524DF62CB00844A05 /* AamalUITask.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = AamalUITask.xcdatamodel; sourceTree = "<group>"; };
 		A6E873E724DF62CC00844A05 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -51,6 +86,7 @@
 		A6E873FC24DF62CC00844A05 /* AamalUITaskUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AamalUITaskUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A6E8740024DF62CC00844A05 /* AamalUITaskUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AamalUITaskUITests.swift; sourceTree = "<group>"; };
 		A6E8740224DF62CC00844A05 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A6E8743624DF6EB800844A05 /* HomeOptionsCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeOptionsCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +114,122 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A6475E2F24DFFEAC002AE284 /* Notifications */ = {
+			isa = PBXGroup;
+			children = (
+				A6475E3024DFFEBA002AE284 /* Notification Controllers */,
+				A6475E3124DFFED4002AE284 /* Notifications Cells */,
+			);
+			path = Notifications;
+			sourceTree = "<group>";
+		};
+		A6475E3024DFFEBA002AE284 /* Notification Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				A6475E3424DFFF66002AE284 /* NotificationVC.swift */,
+			);
+			path = "Notification Controllers";
+			sourceTree = "<group>";
+		};
+		A6475E3124DFFED4002AE284 /* Notifications Cells */ = {
+			isa = PBXGroup;
+			children = (
+				A6475E3224DFFF20002AE284 /* NotifyCell.swift */,
+			);
+			path = "Notifications Cells";
+			sourceTree = "<group>";
+		};
+		A6475E3624E01474002AE284 /* Edit Cv */ = {
+			isa = PBXGroup;
+			children = (
+				A6475E3824E01496002AE284 /* Edit Cv Cells */,
+				A6475E3724E01486002AE284 /* Edit Cv Controllers */,
+			);
+			path = "Edit Cv";
+			sourceTree = "<group>";
+		};
+		A6475E3724E01486002AE284 /* Edit Cv Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				A6475E3924E014BC002AE284 /* EditCvVC.swift */,
+			);
+			path = "Edit Cv Controllers";
+			sourceTree = "<group>";
+		};
+		A6475E3824E01496002AE284 /* Edit Cv Cells */ = {
+			isa = PBXGroup;
+			children = (
+				A6475E3B24E03AED002AE284 /* HeaderCell.swift */,
+				A6475E3D24E03B0C002AE284 /* EditCvCell.swift */,
+				A6475E3F24E06990002AE284 /* AlmaharatCell.swift */,
+				A6475E4124E06B45002AE284 /* AlughatCell.swift */,
+				A6475E4324E08DC5002AE284 /* FooterCell.swift */,
+			);
+			path = "Edit Cv Cells";
+			sourceTree = "<group>";
+		};
+		A6475E4524E0C3DB002AE284 /* CV2 */ = {
+			isa = PBXGroup;
+			children = (
+				A6475E4724E0C40D002AE284 /* CV2 Cells */,
+				A6475E4624E0C3EE002AE284 /* CV2 Controllers */,
+			);
+			path = CV2;
+			sourceTree = "<group>";
+		};
+		A6475E4624E0C3EE002AE284 /* CV2 Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				A6475E4824E0C454002AE284 /* Cv2VC.swift */,
+			);
+			path = "CV2 Controllers";
+			sourceTree = "<group>";
+		};
+		A6475E4724E0C40D002AE284 /* CV2 Cells */ = {
+			isa = PBXGroup;
+			children = (
+				A6475E4A24E0C7CC002AE284 /* Cv2MAloomatCell.swift */,
+				A6475E4C24E0C7E9002AE284 /* Cv2AshadaCell.swift */,
+				A6475E4E24E0C804002AE284 /* Cv2AdoratCell.swift */,
+				A6475E5024E0C83B002AE284 /* Cv2AlkheratCell.swift */,
+				A6475E5224E0C851002AE284 /* Cv2AlmaharatCell.swift */,
+				A6475E5424E0C874002AE284 /* Cv2AlughatCell.swift */,
+			);
+			path = "CV2 Cells";
+			sourceTree = "<group>";
+		};
+		A6475E5624E0D514002AE284 /* CV */ = {
+			isa = PBXGroup;
+			children = (
+				A6475E5724E0D522002AE284 /* Cv Controllers */,
+			);
+			path = CV;
+			sourceTree = "<group>";
+		};
+		A6475E5724E0D522002AE284 /* Cv Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				A6475E5824E0D54B002AE284 /* CvVC.swift */,
+			);
+			path = "Cv Controllers";
+			sourceTree = "<group>";
+		};
+		A6475E5A24E0D80F002AE284 /* CV1 */ = {
+			isa = PBXGroup;
+			children = (
+				A6475E5B24E0D822002AE284 /* Cv1 Controllers */,
+			);
+			path = CV1;
+			sourceTree = "<group>";
+		};
+		A6475E5B24E0D822002AE284 /* Cv1 Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				A6475E5C24E0D83B002AE284 /* Cv1VC.swift */,
+			);
+			path = "Cv1 Controllers";
+			sourceTree = "<group>";
+		};
 		A6E873CF24DF62CB00844A05 = {
 			isa = PBXGroup;
 			children = (
@@ -101,9 +253,14 @@
 		A6E873DA24DF62CB00844A05 /* AamalUITask */ = {
 			isa = PBXGroup;
 			children = (
+				A6475E5A24E0D80F002AE284 /* CV1 */,
+				A6475E5624E0D514002AE284 /* CV */,
+				A6475E4524E0C3DB002AE284 /* CV2 */,
+				A6475E3624E01474002AE284 /* Edit Cv */,
+				A6475E2F24DFFEAC002AE284 /* Notifications */,
+				A6E8740E24DF6D5800844A05 /* Home */,
 				A6E873DB24DF62CB00844A05 /* AppDelegate.swift */,
 				A6E873DD24DF62CB00844A05 /* SceneDelegate.swift */,
-				A6E873DF24DF62CB00844A05 /* ViewController.swift */,
 				A6E873E124DF62CB00844A05 /* Main.storyboard */,
 				A6E873E724DF62CC00844A05 /* Assets.xcassets */,
 				A6E873E924DF62CC00844A05 /* LaunchScreen.storyboard */,
@@ -130,6 +287,32 @@
 			);
 			path = AamalUITaskUITests;
 			sourceTree = "<group>";
+		};
+		A6E8740E24DF6D5800844A05 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				A6E8740F24DF6D6100844A05 /* Home Controllers */,
+				A6E8741024DF6D9800844A05 /* Home Cells */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		A6E8740F24DF6D6100844A05 /* Home Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				A6E873DF24DF62CB00844A05 /* HomeVC.swift */,
+			);
+			path = "Home Controllers";
+			sourceTree = "<group>";
+		};
+		A6E8741024DF6D9800844A05 /* Home Cells */ = {
+			isa = PBXGroup;
+			children = (
+				A6E8743624DF6EB800844A05 /* HomeOptionsCell.swift */,
+			);
+			name = "Home Cells";
+			path = "AamalUITask/Home/Home Cells";
+			sourceTree = SOURCE_ROOT;
 		};
 /* End PBXGroup section */
 
@@ -262,10 +445,28 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A6E873E024DF62CB00844A05 /* ViewController.swift in Sources */,
+				A6475E5524E0C874002AE284 /* Cv2AlughatCell.swift in Sources */,
+				A6475E3E24E03B0C002AE284 /* EditCvCell.swift in Sources */,
+				A6475E5124E0C83B002AE284 /* Cv2AlkheratCell.swift in Sources */,
+				A6475E3324DFFF20002AE284 /* NotifyCell.swift in Sources */,
+				A6475E4924E0C454002AE284 /* Cv2VC.swift in Sources */,
+				A6475E5D24E0D83B002AE284 /* Cv1VC.swift in Sources */,
+				A6475E4224E06B45002AE284 /* AlughatCell.swift in Sources */,
+				A6475E4024E06990002AE284 /* AlmaharatCell.swift in Sources */,
+				A6475E3A24E014BC002AE284 /* EditCvVC.swift in Sources */,
+				A6E873E024DF62CB00844A05 /* HomeVC.swift in Sources */,
+				A6475E4424E08DC5002AE284 /* FooterCell.swift in Sources */,
+				A6E8743724DF6EB800844A05 /* HomeOptionsCell.swift in Sources */,
+				A6475E3C24E03AED002AE284 /* HeaderCell.swift in Sources */,
+				A6475E4B24E0C7CC002AE284 /* Cv2MAloomatCell.swift in Sources */,
+				A6475E5324E0C851002AE284 /* Cv2AlmaharatCell.swift in Sources */,
+				A6475E4D24E0C7E9002AE284 /* Cv2AshadaCell.swift in Sources */,
 				A6E873E624DF62CB00844A05 /* AamalUITask.xcdatamodeld in Sources */,
 				A6E873DC24DF62CB00844A05 /* AppDelegate.swift in Sources */,
 				A6E873DE24DF62CB00844A05 /* SceneDelegate.swift in Sources */,
+				A6475E4F24E0C804002AE284 /* Cv2AdoratCell.swift in Sources */,
+				A6475E5924E0D54B002AE284 /* CvVC.swift in Sources */,
+				A6475E3524DFFF66002AE284 /* NotificationVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
