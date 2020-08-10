@@ -11,6 +11,8 @@ import UIKit
 class NotificationVC: UIViewController {
     
     @IBOutlet weak var containerView: UIView!
+    
+    let notificationData = ["تأكد من السيرة الذاتية", "الاحد 2020/3/25", "السيرة الذاتية غير مكتملة تأكد من تعبئة جميع الخانات لظمان ظهورها للشركات"]
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -18,6 +20,10 @@ class NotificationVC: UIViewController {
         // Do any additional setup after loading the view.
         containerView.layer.cornerRadius = 16.0
     }
+    
+    override var preferredStatusBarStyle: UIStatusBarStyle {
+           return .lightContent
+       }
     
     @IBAction func backBtnAction(_ sender: Any) {
         
@@ -51,6 +57,10 @@ extension NotificationVC: UITableViewDelegate, UITableViewDataSource {
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         
         let cell = tableView.dequeueReusableCell(withIdentifier: "NotifyCell", for: indexPath) as! NotifyCell
+        
+        cell.titleLbl.text = notificationData[0]
+        cell.dateLbl.text = notificationData[1]
+        cell.descriptionLbl.text = notificationData[2]
         
         cell.containerView.layer.cornerRadius = 10.0
         

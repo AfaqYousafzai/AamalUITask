@@ -9,6 +9,10 @@
 import UIKit
 
 class Cv2AdoratCell: UITableViewCell {
+    
+    @IBOutlet weak var placeLbl: UILabel!
+    @IBOutlet weak var nameLbl: UILabel!
+    @IBOutlet weak var titleLbl: UILabel!
 
     override func awakeFromNib() {
         super.awakeFromNib()

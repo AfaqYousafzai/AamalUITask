@@ -9,7 +9,13 @@
 import UIKit
 
 class Cv2MAloomatCell: UITableViewCell {
-
+    
+    
+    @IBOutlet weak var alumerValue: UILabel!
+    @IBOutlet weak var aljinsiaValue: UILabel!
+    @IBOutlet weak var almadinaValue: UILabel!
+    @IBOutlet weak var alarabValue: UILabel!
+    
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code

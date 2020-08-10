@@ -10,6 +10,16 @@ import UIKit
 
 class Cv2AshadaCell: UITableViewCell {
 
+    @IBOutlet weak var placeLbl: UILabel!
+    @IBOutlet weak var nameLbl: UILabel!
+    @IBOutlet weak var titleLbl: UILabel!
+    
+    @IBOutlet weak var secondPlaceLbl: UILabel!
+    @IBOutlet weak var secondNameLbl: UILabel!
+    @IBOutlet weak var secondTitleLbl: UILabel!
+    
+    
+    
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code

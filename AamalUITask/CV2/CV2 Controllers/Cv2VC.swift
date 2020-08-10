@@ -18,6 +18,14 @@ class Cv2VC: UIViewController {
     @IBOutlet weak var tadeelBtn: UIButton!
     
     let sectionsTitles = ["المعلومات الشخصية", "الشهادات التعليمية", "الخبرات الوظيفية", "الدورات", "المهارات", "اللغات"]
+    
+    let maloomatArray = ["34 سنة", "السعودية", "الرياض", "إعزب"]
+    
+    let ashadaArray = ["ثانوي", "جامعة الملك عبدالعزيز", "المملكة العربية السعودية - الرياض"]
+    
+    let adoraArray = ["برمجة php", "معهد معد للتقنيات", "المملكة العربية السعودية - الرياض"]
+    
+    let alughatArray = ["للغة الأم", "ممتازة", "مبتدئ"]
 
     
     
@@ -160,6 +168,11 @@ extension Cv2VC: UITableViewDelegate, UITableViewDataSource {
             default:
                 
                 let cell = tableView.dequeueReusableCell(withIdentifier: "Cv2MAloomatCell", for: indexPath) as! Cv2MAloomatCell
+                cell.alumerValue.text = maloomatArray[0]
+                cell.aljinsiaValue.text = maloomatArray[1]
+                cell.almadinaValue.text = maloomatArray[2]
+                cell.alarabValue.text = maloomatArray[3]
+                
                 
                 return cell
             }
@@ -182,6 +195,13 @@ extension Cv2VC: UITableViewDelegate, UITableViewDataSource {
                 
                 let cell = tableView.dequeueReusableCell(withIdentifier: "Cv2AshadaCell", for: indexPath) as! Cv2AshadaCell
                 
+                cell.titleLbl.text = ashadaArray[0]
+                cell.nameLbl.text = ashadaArray[1]
+                cell.placeLbl.text = ashadaArray[2]
+                cell.secondTitleLbl.text = "جامعي - تسويق"
+                cell.secondNameLbl.text = ashadaArray[1]
+                cell.secondPlaceLbl.text = ashadaArray[2]
+                
                 return cell
             }
             
@@ -202,6 +222,10 @@ extension Cv2VC: UITableViewDelegate, UITableViewDataSource {
             default:
                 
                 let cell = tableView.dequeueReusableCell(withIdentifier: "Cv2AdoratCell", for: indexPath) as! Cv2AdoratCell
+                
+                cell.titleLbl.text = adoraArray[0]
+                cell.nameLbl.text = adoraArray[1]
+                cell.placeLbl.text = adoraArray[2]
                 
                 return cell
             }
@@ -263,6 +287,10 @@ extension Cv2VC: UITableViewDelegate, UITableViewDataSource {
             default:
                 
                 let cell = tableView.dequeueReusableCell(withIdentifier: "Cv2AlughatCell", for: indexPath) as! Cv2AlughatCell
+                
+                cell.arabicValue.text = alughatArray[0]
+                cell.englishValue.text = alughatArray[1]
+                cell.frenchValue.text = alughatArray[2]
                 
                 return cell
             }

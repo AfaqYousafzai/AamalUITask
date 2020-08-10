@@ -9,6 +9,11 @@
 import UIKit
 
 class Cv2AlughatCell: UITableViewCell {
+    
+    @IBOutlet weak var frenchValue: UILabel!
+    @IBOutlet weak var arabicValue: UILabel!
+    @IBOutlet weak var englishValue: UILabel!
+    
 
     override func awakeFromNib() {
         super.awakeFromNib()

@@ -20,6 +20,10 @@ class Cv1VC: UIViewController {
     
     let sectionsTitles = ["المعلومات الشخصية", "الشهادات التعليمية", "الخبرات الوظيفية", "الدورات", "المهارات", "اللغات"]
     
+    let ashadaArray = ["ثانوي", "جامعة الملك عبدالعزيز", "المملكة العربية السعودية - الرياض"]
+    
+    
+    
     
     
     override func viewDidLoad() {
@@ -172,6 +176,13 @@ extension Cv1VC: UITableViewDelegate, UITableViewDataSource {
             default:
                 
                 let cell = tableView.dequeueReusableCell(withIdentifier: "Cv2AshadaCell", for: indexPath) as! Cv2AshadaCell
+                
+                cell.titleLbl.text = ashadaArray[0]
+                cell.nameLbl.text = ashadaArray[1]
+                cell.placeLbl.text = ashadaArray[2]
+                cell.secondTitleLbl.text = "جامعي - تسويق"
+                cell.secondNameLbl.text = ashadaArray[1]
+                cell.secondPlaceLbl.text = ashadaArray[2]
                 
                 return cell
             }
